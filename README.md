@@ -1,4 +1,4 @@
-#### NPM Package Template
-A template for writing NPM packages.
+#### @cleverbeagle/strings
+JavaScript string helpers.
 
-[Read the Documentation](http://packages.cleverbeagle.com/template)
+[Read the Documentation](http://packages.cleverbeagle.com/strings)

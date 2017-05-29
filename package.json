@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-template",
-  "version": "1.0.0",
-  "description": "A template for writing NPM packages.",
+  "name": "@cleverbeagle/strings",
+  "version": "0.1.0",
+  "description": "JavaScript string helpers.",
   "main": "index.js",
   "scripts": {
     "build": "babel --presets latest src -d ./ --ignore src/index.test.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cleverbeagle/npm-package-template"
+    "url": "git+https://github.com/cleverbeagle/strings"
   },
   "keywords": [
     "npm",
@@ -20,9 +20,9 @@
   "author": "cleverbeagle",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cleverbeagle/npm-package-template/issues"
+    "url": "https://github.com/cleverbeagle/strings/issues"
   },
-  "homepage": "http://packages.cleverbeagle.com/template",
+  "homepage": "http://packages.cleverbeagle.com/strings/usage",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.24.1",

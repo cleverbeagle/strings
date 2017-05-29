@@ -1,10 +1,5 @@
-test('it puts the lotion in the basket', () => {
-  const basket = ['lotion'];
-  expect(basket.indexOf('lotion')).toBe(0);
-});
+import { capitalize } from './index';
 
-test('it throws an error', () => {
-  expect(() => {
-    throw new Error('Something went wrong.');
-  }).toThrow();
+test('capitalize method capitalizes the first letter of a string', () => {
+  expect(capitalize('deftones')).toBe('Deftones');
 });
